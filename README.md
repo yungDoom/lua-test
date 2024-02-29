@@ -2,7 +2,7 @@
 
 <dl>
   <dt>My first ever Lua script except Roblox.</dt>
-  <dd>I was coding at Roblox semi-professionally but decided to code with the Real *Lua* first time, so here is the testing script that i made.</dd>
+  <dd>I was coding at Roblox semi-professionally but decided to code with the Real *Lua* first time, so here is the testing script that i made. <br> Not compatible with roblox by the way.</dd>
 </dl>
 
 You can own Lua binaries or the source code from here: <br>
