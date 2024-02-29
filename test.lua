@@ -43,12 +43,13 @@ print("Look at your files, i've created a .txt file.")
 elseif var >= 25 then
 print("YOU WANT MORE? OKAY ILL DO IT.")
 wait(1)
-for i = 0, 150 do
-num = math.random() and math.random() and math.random() and math.random(0, 150)
+for i = 0, 150, 1 do
 print("COPYING FILES...")
-file = io.open("testing" .. num .. ".txt", "w")
+for i = 0, 150, 1 do
+num = math.random(0, 150)
+file = io.open("./sat/grah" .. num .. ".txt", "w")
 file:write(contents[math.random( #contents )])
-file:close()
+end
 end
 print("Hope you're happy now, you greedy.")
 else
