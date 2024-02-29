@@ -1,15 +1,18 @@
 --[[ VARS & FUNCTIONS ]]--
 ---------------------------------------------------------------------
 
+-- Input
 io.write('Enter a number please, \n')
 local f = io.read("n")
 local var = f
 
+-- File Contents
 local contents = {"Hmm, weird to see this text file isnt it?", "hmm", "testing", "bla, bla, bla bla bla.", "WH0LEWHALE Presents...", "Spiders", "Fellas!", "Sorry if your pc blowed.", "Tranquila Baby!!!!", "Dont worry!", "1", "2", "3", "YOOO", "VSauce Michael Here.", "Bloooat"}
 
 error = [[Your input number needs to lower or higher than ]]
 bracket = [["]]
 
+-- Wait functions
 function wait(n)
   os.execute("sleep " .. tonumber(n))
 end
@@ -51,9 +54,9 @@ for i = 0, 150, 1 do
     file = io.open("./sat/grah" .. num .. ".txt", "w")
     file:write(contents[math.random( #contents )])
 end
-    print("Hope you're happy now, you greedy.")
+    print("Hope you're happy now, you greedy. (joking)") -- :)
 else
-    print(error .. bracket .. var .. bracket)
+    print(error .. bracket .. var .. bracket) -- its more easy to print error for me.
 end
 
 ---------------------------------------------------------------------
