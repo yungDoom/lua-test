@@ -1,6 +1,7 @@
 io.write('Enter a number please, \n')
 local f = io.read("n")
 --[[
+
 NOT NEEDED!
 
 io.write('Your number is ', f, '!\n')
