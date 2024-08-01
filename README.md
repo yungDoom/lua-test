@@ -10,3 +10,5 @@ https://luabinaries.sourceforge.net/ <br> https://www.lua.org/download.html
 
 Built in linux, so i writed this script(shit) for linux-only. <br>
 Type **`./lua54 test.lua`** for opening it.
+
+Warning: this code creates bunch of file so be careful when you open it.
